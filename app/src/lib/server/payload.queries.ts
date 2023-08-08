@@ -4,7 +4,7 @@ import qs from 'qs';
 import ky from 'ky';
 
 const api = ky.create({
-  prefixUrl: `${process.env.PAYLOAD_PUBLIC_SERVER_URL}/api`,
+  prefixUrl: `${process.env.PAYLOAD_PUBLIC_SERVER_URL}`,
 });
 
 export const getPosts = async () => {
