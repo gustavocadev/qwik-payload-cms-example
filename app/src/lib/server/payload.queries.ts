@@ -1,5 +1,5 @@
 import type { PayloadCollection } from '~/types';
-import type { Post } from '@/payload/payload-types';
+import type { Post } from '~/types/payload-types';
 import qs from 'qs';
 import ky from 'ky';
 
