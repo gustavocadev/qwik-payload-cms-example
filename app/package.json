@@ -25,6 +25,7 @@
     "@builder.io/qwik": "^1.2.6",
     "@builder.io/qwik-city": "^1.2.6",
     "@types/escape-html": "^1.0.2",
+    "payload": "^1.13.0",
     "@types/eslint": "8.40.2",
     "@types/node": "^20.4.0",
     "@types/qs": "^6.9.7",
@@ -44,8 +45,8 @@
     "vite-tsconfig-paths": "4.2.0"
   },
   "dependencies": {
-    "ky": "^0.33.3",
     "escape-html": "^1.0.3",
+    "ky": "^0.33.3",
     "qs": "^6.11.2",
     "slate": "^0.94.1"
   }
