@@ -18,9 +18,11 @@
     "noEmit": true,
     "types": ["node", "vite/client"],
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      // This is needed to find the payload types
+      "@/payload/*": ["../payload/src/*"]
     }
   },
-  "files": ["./.eslintrc.cjs"],
+  "files": ["./.eslintrc.cjs", "tailwind.config.js"],
   "include": ["src", "./*.d.ts", "./*.config.ts"]
 }
