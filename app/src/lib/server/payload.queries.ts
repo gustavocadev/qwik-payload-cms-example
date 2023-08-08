@@ -21,9 +21,7 @@ export const getPostById = async (id: string) => {
     {
       where: query,
     },
-    {
-      addQueryPrefix: true,
-    }
+    { addQueryPrefix: true }
   );
 
   const resp = await api.get(`posts/${stringifiedQuery}`);
