@@ -1,7 +1,4 @@
-import type {
-  FormattedText,
-  FormattedElement,
-} from '@/payload/rich-text-export';
+import type { FormattedElement, FormattedText } from './types/RichText';
 
 declare module 'slate' {
   interface CustomTypes {
