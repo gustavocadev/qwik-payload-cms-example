@@ -1,12 +1,8 @@
 {
   "name": "qwik-payload",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "postinstall": "echo '\u001b[0;31mThis is not a monorepo. Run commands in /app and /studio individually.\u001b[0m'"
+  }
 }
