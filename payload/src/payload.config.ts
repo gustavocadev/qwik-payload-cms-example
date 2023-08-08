@@ -13,7 +13,15 @@ export default buildConfig({
   },
   collections: [Categories, Posts, Tags, Users, Media],
   typescript: {
-    outputFile: path.resolve(__dirname, 'payload-types.ts'),
+    outputFile: path.resolve(
+      __dirname,
+      '..',
+      '..',
+      'app',
+      'src',
+      'types',
+      'payload-types.ts'
+    ),
   },
   graphQL: {
     schemaOutputFile: path.resolve(__dirname, 'generated-schema.graphql'),
